@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EndPointFMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9f2790a-8069-455f-a6e8-4d07f2a3d290</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac82aae3-a2c6-4afa-b686-36edfe109a17</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>172c0519-21c5-4d0f-ad8b-6d12fe69828e</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>71409e28-6c76-466d-b38b-5649e5ad4317</id>
+      <masked>false</masked>
+      <name>filStrart</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>44c5f892-c3ee-4a5c-9f4a-a026c5d6e333</id>
+      <masked>false</masked>
+      <name>filEnd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>79a43737-acc1-4fb7-93ac-756a84200664</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+</TestCaseEntity>
