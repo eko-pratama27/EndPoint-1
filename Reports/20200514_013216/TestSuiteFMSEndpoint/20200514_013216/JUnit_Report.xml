@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteFMSEndpoint" time="26.842" tests="4" failures="3" errors="0">
+   <testsuite name="TestSuiteFMSEndpoint" tests="4" failures="3" errors="0" time="26.842" timestamp="2020-05-14 01:32:23" hostname="echogeer - DESKTOP-HODD78H" id="Test Suites/TestSuiteFMSEndpoint">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\Sirclo\\scliAutomation\\Reports\\20200514_013216\\TestSuiteFMSEndpoint\\20200514_013216"/>
+         <property name="logFiles" value="D:\\Test\\Sirclo\\scliAutomation\\Reports\\20200514_013216\\TestSuiteFMSEndpoint\\20200514_013216\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="echogeer - DESKTOP-HODD78H"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+      </properties>
+      <testcase name="Test Cases/EndPointFMS" time="23.624" classname="Test Cases/EndPointFMS" status="FAILED">
+         <failure type="FAILED" message="Test Cases/EndPointFMS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: The password or username is wrong
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-14 01:32:23 - [TEST_CASE][FAILED] - Test Cases/EndPointFMS: Test Cases/EndPointFMS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: The password or username is wrong
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)
+
+
+2020-05-14 01:32:24 - [TEST_STEP][FAILED] - try: null
+
+2020-05-14 01:32:24 - [TEST_STEP][PASSED] - cookies = "username=root; path=/; domain=qa-interview.srcli.xyz": null
+
+2020-05-14 01:32:24 - [TEST_STEP][PASSED] - uname = username: null
+
+2020-05-14 01:32:24 - [TEST_STEP][PASSED] - passWord = pass: null
+
+2020-05-14 01:32:24 - [TEST_STEP][PASSED] - filterStart = filStrart: null
+
+2020-05-14 01:32:24 - [TEST_STEP][PASSED] - filterEnd = filEnd: null
+
+2020-05-14 01:32:24 - [TEST_STEP][PASSED] - type = type.toString(): null
+
+2020-05-14 01:32:24 - [TEST_STEP][PASSED] - mainPage = sendRequest(findTestObject("MainPage")): Send request successfully
+
+2020-05-14 01:32:25 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\0.har
+
+2020-05-14 01:32:26 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(mainPage, 200): Verify response status code successfully
+
+2020-05-14 01:32:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - markPassed("Main page is present"): Main page is present
+
+2020-05-14 01:32:26 - [MESSAGE][PASSED] - Main page is present
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - typesession = type: null
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - if (typesession == "1"): null
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - else: Login Page Display
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - "validate user not yet login": null
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - getLogin = sendRequest(findTestObject("Object Repository/login")): Send request successfully
+
+2020-05-14 01:32:26 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\1.har
+
+2020-05-14 01:32:26 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getLogin, 200): Verify response status code successfully
+
+2020-05-14 01:32:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - getLoginResponse = getLogin.getResponseBodyContent(): null
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - if (getLoginResponse.contains("Username") && getLoginResponse.contains("Password")): Login Page Display
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - markPassed("Login Page Display"): Login Page Display
+
+2020-05-14 01:32:26 - [MESSAGE][PASSED] - Login Page Display
+
+2020-05-14 01:32:26 - [TEST_STEP][PASSED] - postLogin = sendRequest(findTestObject("Object Repository/LoginPost")): Send request successfully
+
+2020-05-14 01:32:46 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\2.har
+
+2020-05-14 01:32:46 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - response = postLogin.getResponseText(): null
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - code = postLogin.getStatusCode(): null
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - if (code == 200 && response.contains("Welcome!")): null
+
+2020-05-14 01:32:46 - [TEST_STEP][FAILED] - else: The password or username is wrong
+
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(code): null
+
+2020-05-14 01:32:46 - [TEST_STEP][FAILED] - markFailed(response): The password or username is wrong
+
+
+2020-05-14 01:32:46 - [MESSAGE][FAILED] - The password or username is wrong
+
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - logOut = sendRequest(findTestObject("Object Repository/Logout")): Send request successfully
+
+2020-05-14 01:32:46 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\3.har
+
+2020-05-14 01:32:46 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(logOut, 200): Verify response status code successfully
+
+2020-05-14 01:32:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - logoutResponse = logOut.getResponseBodyContent(): null
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - markPassed("LogOut Succesfully " + logoutResponse): LogOut Succesfully <h1>Welcome!
+</h1>
+
+2020-05-14 01:32:46 - [MESSAGE][PASSED] - LogOut Succesfully <h1>Welcome!
+</h1>
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - typesessionData = type: null
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - if (typesessionData == "1"): null
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - else: Login Page Display Redirect GET Data List
+
+2020-05-14 01:32:46 - [TEST_STEP][PASSED] - getData = sendRequest(findTestObject("Object Repository/DataList")): Send request successfully
+
+2020-05-14 01:32:47 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\4.har
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getData, 200): Verify response status code successfully
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getDatatxt = getData.getResponseBodyContent(): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - if (getDatatxt.contains("Username") && getDatatxt.contains("Password")): Login Page Display Redirect GET Data List
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - markPassed("Login Page Display Redirect GET Data List"): Login Page Display Redirect GET Data List
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Login Page Display Redirect GET Data List
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - typesessionDataPost = type: null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - println(typesessionDataPost): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - if (typesessionDataPost == "1"): null
+
+2020-05-14 01:32:47 - [TEST_STEP][FAILED] - else: Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '405'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)
+)
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getData = sendRequest(findTestObject("Object Repository/DataListPost")): Send request successfully
+
+2020-05-14 01:32:47 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\5.har
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][FAILED] - verifyResponseStatusCode(getData, 200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '405'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)
+)
+
+2020-05-14 01:32:47 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '405'
+
+2020-05-14 01:32:47 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '405'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)
+)
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - catch (Exception ex): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - println(ex): null]]></system-out>
+         <system-err><![CDATA[2020-05-14 01:32:23 - [TEST_CASE][FAILED] - Test Cases/EndPointFMS: Test Cases/EndPointFMS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: The password or username is wrong
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EndPointFMS" time="0.867" classname="Test Cases/EndPointFMS" status="FAILED">
+         <failure type="FAILED" message="Test Cases/EndPointFMS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: The password or username is wrong
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-14 01:32:47 - [TEST_CASE][FAILED] - Test Cases/EndPointFMS: Test Cases/EndPointFMS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: The password or username is wrong
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)
+
+
+2020-05-14 01:32:47 - [TEST_STEP][FAILED] - try: null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - cookies = "username=root; path=/; domain=qa-interview.srcli.xyz": null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - uname = username: null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - passWord = pass: null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - filterStart = filStrart: null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - filterEnd = filEnd: null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - type = type.toString(): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - mainPage = sendRequest(findTestObject("MainPage")): Send request successfully
+
+2020-05-14 01:32:47 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\6.har
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(mainPage, 200): Verify response status code successfully
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - markPassed("Main page is present"): Main page is present
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Main page is present
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - typesession = type: null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - if (typesession == "1"): MainPage redirect
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - session = cookies: null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getLogin = sendRequest(findTestObject("Object Repository/login")): Send request successfully
+
+2020-05-14 01:32:47 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\7.har
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getLogin, 200): Verify response status code successfully
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getLoginResponse = getLogin.getResponseText(): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - if (getLoginResponse.contains("Welcome!")): MainPage redirect
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - markPassed("MainPage redirect"): MainPage redirect
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - MainPage redirect
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - postLogin = sendRequest(findTestObject("Object Repository/LoginPost")): Send request successfully
+
+2020-05-14 01:32:47 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\8.har
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - response = postLogin.getResponseText(): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - code = postLogin.getStatusCode(): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - if (code == 200 && response.contains("Welcome!")): null
+
+2020-05-14 01:32:47 - [TEST_STEP][FAILED] - else: The password or username is wrong
+
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(code): null
+
+2020-05-14 01:32:47 - [TEST_STEP][FAILED] - markFailed(response): The password or username is wrong
+
+
+2020-05-14 01:32:47 - [MESSAGE][FAILED] - The password or username is wrong
+
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - logOut = sendRequest(findTestObject("Object Repository/Logout")): Send request successfully
+
+2020-05-14 01:32:47 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\9.har
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(logOut, 200): Verify response status code successfully
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - logoutResponse = logOut.getResponseBodyContent(): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - markPassed("LogOut Succesfully " + logoutResponse): LogOut Succesfully <h1>Welcome!
+</h1>
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - LogOut Succesfully <h1>Welcome!
+</h1>
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - typesessionData = type: null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - if (typesessionData == "1"): Datalist Displayed
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - session = cookies: null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getData = sendRequest(findTestObject("Object Repository/DataList")): Send request successfully
+
+2020-05-14 01:32:47 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\10.har
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getData, 200): Verify response status code successfully
+
+2020-05-14 01:32:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:47 - [TEST_STEP][PASSED] - getDatatxt = getData.getResponseText(): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - if (getDatatxt.contains("Pemasukan") && getDatatxt.contains("Pengeluaran")): Datalist Displayed
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - markPassed("Datalist Displayed"): Datalist Displayed
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Datalist Displayed
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - typesessionDataPost = type: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - println(typesessionDataPost): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - if (typesessionDataPost == "1"): <h1>Pemasukan</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr></table><h1>Pengeluaran</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr></table><br><html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/filter" method="post">
+            Start:<input type="text" name="start">
+            End:<input type="text" name="end">
+            <input type="submit" value="Filter">
+        </form>
+        Date Format: yyyy-mm-dd
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXYyZvjmgKwTvgXg%2bTPIhIj85Ig%2fBDZlgS%2bCmf3MFE3880sHaln%2f3RKDefB0D4UwGW7lM%2fZgtwErDicrWnVth%2bbvnZrx8E1JyA2EAFl7u%2bpvfr2IvgV5ZSmx0tNIWOSNoN9Jh%2bMUx0hf5I0oOhBj%2bfNUWloZwFn4pMSr9KvzZat5omaHicLtiMFmDdKgsqwu2p%2bKcJmvVyftr42%2fGv%2bdvzWmMjW4a8TkugjSAxuaBXiHM14qYU9oaGQ8QHLBcIMBxjI7N0BIbaQnYLHNy6QW%2f9HXzAfad4BqcdxQe%2fVLJAj2MilDZg2%2bN9DDl%2f0%2f%2ffnOKjH8VcUdHl4xBRDkwLT8HYkv38fRMhNGzyLweqz%2f4%2fjykOBU60NUW%2fRcRGGNWrGkBbrHzZQUNiodchWwOa5b2bs1%2f%2fTbRyjH%2bwrcep5bfTsKLi247TIXxgxbUlcOGWtSChl2WljzRaLTU%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - session = cookies: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - getFilter = sendRequest(findTestObject("Object Repository/DataListPost")): Send request successfully
+
+2020-05-14 01:32:48 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\11.har
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - filterRes = getFilter.getResponseText(): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - filterCode = getFilter.getStatusCode(): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - if (filterCode == 200): <h1>Pemasukan</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr></table><h1>Pengeluaran</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr></table><br><html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/filter" method="post">
+            Start:<input type="text" name="start">
+            End:<input type="text" name="end">
+            <input type="submit" value="Filter">
+        </form>
+        Date Format: yyyy-mm-dd
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXYyZvjmgKwTvgXg%2bTPIhIj85Ig%2fBDZlgS%2bCmf3MFE3880sHaln%2f3RKDefB0D4UwGW7lM%2fZgtwErDicrWnVth%2bbvnZrx8E1JyA2EAFl7u%2bpvfr2IvgV5ZSmx0tNIWOSNoN9Jh%2bMUx0hf5I0oOhBj%2bfNUWloZwFn4pMSr9KvzZat5omaHicLtiMFmDdKgsqwu2p%2bKcJmvVyftr42%2fGv%2bdvzWmMjW4a8TkugjSAxuaBXiHM14qYU9oaGQ8QHLBcIMBxjI7N0BIbaQnYLHNy6QW%2f9HXzAfad4BqcdxQe%2fVLJAj2MilDZg2%2bN9DDl%2f0%2f%2ffnOKjH8VcUdHl4xBRDkwLT8HYkv38fRMhNGzyLweqz%2f4%2fjykOBU60NUW%2fRcRGGNWrGkBbrHzZQUNiodchWwOa5b2bs1%2f%2fTbRyjH%2bwrcep5bfTsKLi247TIXxgxbUlcOGWtSChl2WljzRaLTU%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - markPassed(filterRes): <h1>Pemasukan</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr></table><h1>Pengeluaran</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr></table><br><html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/filter" method="post">
+            Start:<input type="text" name="start">
+            End:<input type="text" name="end">
+            <input type="submit" value="Filter">
+        </form>
+        Date Format: yyyy-mm-dd
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXYyZvjmgKwTvgXg%2bTPIhIj85Ig%2fBDZlgS%2bCmf3MFE3880sHaln%2f3RKDefB0D4UwGW7lM%2fZgtwErDicrWnVth%2bbvnZrx8E1JyA2EAFl7u%2bpvfr2IvgV5ZSmx0tNIWOSNoN9Jh%2bMUx0hf5I0oOhBj%2bfNUWloZwFn4pMSr9KvzZat5omaHicLtiMFmDdKgsqwu2p%2bKcJmvVyftr42%2fGv%2bdvzWmMjW4a8TkugjSAxuaBXiHM14qYU9oaGQ8QHLBcIMBxjI7N0BIbaQnYLHNy6QW%2f9HXzAfad4BqcdxQe%2fVLJAj2MilDZg2%2bN9DDl%2f0%2f%2ffnOKjH8VcUdHl4xBRDkwLT8HYkv38fRMhNGzyLweqz%2f4%2fjykOBU60NUW%2fRcRGGNWrGkBbrHzZQUNiodchWwOa5b2bs1%2f%2fTbRyjH%2bwrcep5bfTsKLi247TIXxgxbUlcOGWtSChl2WljzRaLTU%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - <h1>Pemasukan</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr></table><h1>Pengeluaran</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr></table><br><html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/filter" method="post">
+            Start:<input type="text" name="start">
+            End:<input type="text" name="end">
+            <input type="submit" value="Filter">
+        </form>
+        Date Format: yyyy-mm-dd
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXYyZvjmgKwTvgXg%2bTPIhIj85Ig%2fBDZlgS%2bCmf3MFE3880sHaln%2f3RKDefB0D4UwGW7lM%2fZgtwErDicrWnVth%2bbvnZrx8E1JyA2EAFl7u%2bpvfr2IvgV5ZSmx0tNIWOSNoN9Jh%2bMUx0hf5I0oOhBj%2bfNUWloZwFn4pMSr9KvzZat5omaHicLtiMFmDdKgsqwu2p%2bKcJmvVyftr42%2fGv%2bdvzWmMjW4a8TkugjSAxuaBXiHM14qYU9oaGQ8QHLBcIMBxjI7N0BIbaQnYLHNy6QW%2f9HXzAfad4BqcdxQe%2fVLJAj2MilDZg2%2bN9DDl%2f0%2f%2ffnOKjH8VcUdHl4xBRDkwLT8HYkv38fRMhNGzyLweqz%2f4%2fjykOBU60NUW%2fRcRGGNWrGkBbrHzZQUNiodchWwOa5b2bs1%2f%2fTbRyjH%2bwrcep5bfTsKLi247TIXxgxbUlcOGWtSChl2WljzRaLTU%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>]]></system-out>
+         <system-err><![CDATA[2020-05-14 01:32:47 - [TEST_CASE][FAILED] - Test Cases/EndPointFMS: Test Cases/EndPointFMS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: The password or username is wrong
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EndPointFMS" time="0.797" classname="Test Cases/EndPointFMS" status="PASSED">
+         <system-out><![CDATA[2020-05-14 01:32:48 - [TEST_CASE][PASSED] - Test Cases/EndPointFMS: Test Cases/EndPointFMS
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - try: <h1>Pemasukan</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr></table><h1>Pengeluaran</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr></table><br><html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/filter" method="post">
+            Start:<input type="text" name="start">
+            End:<input type="text" name="end">
+            <input type="submit" value="Filter">
+        </form>
+        Date Format: yyyy-mm-dd
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXYyZvjmgKwTvgdTJCtiZ4aNE8e9GvX0QLav7V5xsBv6D%2bIOjlFHob7f5ApHglYxzzVniRTRb4dnVosup669M%2f3PoWg%2fGjsWo51pH6gdjOCsEzhKSHGbtBo89b3HKtEpYwvKXIpukB6zSINUC9hi4%2f1x%2bl8KxxAJGCOE5TNdqwJfQnGqz3QK5X7xseLZwFFwrzKPQdWeCZ8ZiUmazoYmjMtBh1485klX7QWBD4pf%2bo2mI7DFH8nR5Tg9Sul0ccvkGCgfqHhHiESgqXpK%2fNbKcKc8bV4jOINJUFoqCPiASmM421LnrRS5yEPQitvjmxYTVH3NNEFFg7U860QxA%2f4oMTXdaL3mAn6azjHR126o2n92rLHiYfH0t8gU7hxiHJpPVZSHT8lGXAD7tvwi9rqEq5BPzhq9%2fWgaYqWHVAh%2b1RPnngFnzngw0Ps5TWIIjCJLLe3uy1qJXouNA%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - cookies = "username=root; path=/; domain=qa-interview.srcli.xyz": null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - uname = username: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - passWord = pass: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - filterStart = filStrart: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - filterEnd = filEnd: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - type = type.toString(): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - mainPage = sendRequest(findTestObject("MainPage")): Send request successfully
+
+2020-05-14 01:32:48 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\12.har
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(mainPage, 200): Verify response status code successfully
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - markPassed("Main page is present"): Main page is present
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Main page is present
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - typesession = type: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - if (typesession == "1"): MainPage redirect
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - session = cookies: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - getLogin = sendRequest(findTestObject("Object Repository/login")): Send request successfully
+
+2020-05-14 01:32:48 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\13.har
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getLogin, 200): Verify response status code successfully
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - getLoginResponse = getLogin.getResponseText(): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - if (getLoginResponse.contains("Welcome!")): MainPage redirect
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - markPassed("MainPage redirect"): MainPage redirect
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - MainPage redirect
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - postLogin = sendRequest(findTestObject("Object Repository/LoginPost")): Send request successfully
+
+2020-05-14 01:32:48 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\14.har
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - response = postLogin.getResponseText(): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - code = postLogin.getStatusCode(): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - if (code == 200 && response.contains("Welcome!")): Login Berhasil
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - markPassed("Login Berhasil"): Login Berhasil
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Login Berhasil
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - logOut = sendRequest(findTestObject("Object Repository/Logout")): Send request successfully
+
+2020-05-14 01:32:48 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\15.har
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(logOut, 200): Verify response status code successfully
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - logoutResponse = logOut.getResponseBodyContent(): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - markPassed("LogOut Succesfully " + logoutResponse): LogOut Succesfully <h1>Welcome!
+</h1>
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - LogOut Succesfully <h1>Welcome!
+</h1>
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - typesessionData = type: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - if (typesessionData == "1"): Datalist Displayed
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - session = cookies: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - getData = sendRequest(findTestObject("Object Repository/DataList")): Send request successfully
+
+2020-05-14 01:32:48 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\16.har
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getData, 200): Verify response status code successfully
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - getDatatxt = getData.getResponseText(): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - if (getDatatxt.contains("Pemasukan") && getDatatxt.contains("Pengeluaran")): Datalist Displayed
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - markPassed("Datalist Displayed"): Datalist Displayed
+
+2020-05-14 01:32:48 - [MESSAGE][PASSED] - Datalist Displayed
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - typesessionDataPost = type: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - println(typesessionDataPost): null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - if (typesessionDataPost == "1"): <h1>Pemasukan</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr></table><h1>Pengeluaran</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr></table><br><html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/filter" method="post">
+            Start:<input type="text" name="start">
+            End:<input type="text" name="end">
+            <input type="submit" value="Filter">
+        </form>
+        Date Format: yyyy-mm-dd
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXYyZvjmgKwTvgdTJCtiZ4aNE8e9GvX0QLav7V5xsBv6D%2bIOjlFHob7f5ApHglYxzzVniRTRb4dnVosup669M%2f3PoWg%2fGjsWo51pH6gdjOCsEzhKSHGbtBo89b3HKtEpYwvKXIpukB6zSINUC9hi4%2f1x%2bl8KxxAJGCOE5TNdqwJfQnGqz3QK5X7xseLZwFFwrzKPQdWeCZ8ZiUmazoYmjMtBh1485klX7QWBD4pf%2bo2mI7DFH8nR5Tg9Sul0ccvkGCgfqHhHiESgqXpK%2fNbKcKc8bV4jOINJUFoqCPiASmM421LnrRS5yEPQitvjmxYTVH3NNEFFg7U860QxA%2f4oMTXdaL3mAn6azjHR126o2n92rLHiYfH0t8gU7hxiHJpPVZSHT8lGXAD7tvwi9rqEq5BPzhq9%2fWgaYqWHVAh%2b1RPnngFnzngw0Ps5TWIIjCJLLe3uy1qJXouNA%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - session = cookies: null
+
+2020-05-14 01:32:48 - [TEST_STEP][PASSED] - getFilter = sendRequest(findTestObject("Object Repository/DataListPost")): Send request successfully
+
+2020-05-14 01:32:49 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\17.har
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - filterRes = getFilter.getResponseText(): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - filterCode = getFilter.getStatusCode(): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - if (filterCode == 200): <h1>Pemasukan</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr></table><h1>Pengeluaran</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr></table><br><html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/filter" method="post">
+            Start:<input type="text" name="start">
+            End:<input type="text" name="end">
+            <input type="submit" value="Filter">
+        </form>
+        Date Format: yyyy-mm-dd
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXYyZvjmgKwTvgdTJCtiZ4aNE8e9GvX0QLav7V5xsBv6D%2bIOjlFHob7f5ApHglYxzzVniRTRb4dnVosup669M%2f3PoWg%2fGjsWo51pH6gdjOCsEzhKSHGbtBo89b3HKtEpYwvKXIpukB6zSINUC9hi4%2f1x%2bl8KxxAJGCOE5TNdqwJfQnGqz3QK5X7xseLZwFFwrzKPQdWeCZ8ZiUmazoYmjMtBh1485klX7QWBD4pf%2bo2mI7DFH8nR5Tg9Sul0ccvkGCgfqHhHiESgqXpK%2fNbKcKc8bV4jOINJUFoqCPiASmM421LnrRS5yEPQitvjmxYTVH3NNEFFg7U860QxA%2f4oMTXdaL3mAn6azjHR126o2n92rLHiYfH0t8gU7hxiHJpPVZSHT8lGXAD7tvwi9rqEq5BPzhq9%2fWgaYqWHVAh%2b1RPnngFnzngw0Ps5TWIIjCJLLe3uy1qJXouNA%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - markPassed(filterRes): <h1>Pemasukan</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr></table><h1>Pengeluaran</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr></table><br><html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/filter" method="post">
+            Start:<input type="text" name="start">
+            End:<input type="text" name="end">
+            <input type="submit" value="Filter">
+        </form>
+        Date Format: yyyy-mm-dd
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXYyZvjmgKwTvgdTJCtiZ4aNE8e9GvX0QLav7V5xsBv6D%2bIOjlFHob7f5ApHglYxzzVniRTRb4dnVosup669M%2f3PoWg%2fGjsWo51pH6gdjOCsEzhKSHGbtBo89b3HKtEpYwvKXIpukB6zSINUC9hi4%2f1x%2bl8KxxAJGCOE5TNdqwJfQnGqz3QK5X7xseLZwFFwrzKPQdWeCZ8ZiUmazoYmjMtBh1485klX7QWBD4pf%2bo2mI7DFH8nR5Tg9Sul0ccvkGCgfqHhHiESgqXpK%2fNbKcKc8bV4jOINJUFoqCPiASmM421LnrRS5yEPQitvjmxYTVH3NNEFFg7U860QxA%2f4oMTXdaL3mAn6azjHR126o2n92rLHiYfH0t8gU7hxiHJpPVZSHT8lGXAD7tvwi9rqEq5BPzhq9%2fWgaYqWHVAh%2b1RPnngFnzngw0Ps5TWIIjCJLLe3uy1qJXouNA%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - <h1>Pemasukan</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr></table><h1>Pengeluaran</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr></table><br><html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/filter" method="post">
+            Start:<input type="text" name="start">
+            End:<input type="text" name="end">
+            <input type="submit" value="Filter">
+        </form>
+        Date Format: yyyy-mm-dd
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXYyZvjmgKwTvgdTJCtiZ4aNE8e9GvX0QLav7V5xsBv6D%2bIOjlFHob7f5ApHglYxzzVniRTRb4dnVosup669M%2f3PoWg%2fGjsWo51pH6gdjOCsEzhKSHGbtBo89b3HKtEpYwvKXIpukB6zSINUC9hi4%2f1x%2bl8KxxAJGCOE5TNdqwJfQnGqz3QK5X7xseLZwFFwrzKPQdWeCZ8ZiUmazoYmjMtBh1485klX7QWBD4pf%2bo2mI7DFH8nR5Tg9Sul0ccvkGCgfqHhHiESgqXpK%2fNbKcKc8bV4jOINJUFoqCPiASmM421LnrRS5yEPQitvjmxYTVH3NNEFFg7U860QxA%2f4oMTXdaL3mAn6azjHR126o2n92rLHiYfH0t8gU7hxiHJpPVZSHT8lGXAD7tvwi9rqEq5BPzhq9%2fWgaYqWHVAh%2b1RPnngFnzngw0Ps5TWIIjCJLLe3uy1qJXouNA%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EndPointFMS" time="0.659" classname="Test Cases/EndPointFMS" status="FAILED">
+         <failure type="FAILED" message="Test Cases/EndPointFMS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Filter Parameter are wrong
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:190)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-14 01:32:49 - [TEST_CASE][FAILED] - Test Cases/EndPointFMS: Test Cases/EndPointFMS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Filter Parameter are wrong
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:190)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)
+
+
+2020-05-14 01:32:49 - [TEST_STEP][FAILED] - try: Filter Parameter are wrong
+
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - cookies = "username=root; path=/; domain=qa-interview.srcli.xyz": null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - uname = username: null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - passWord = pass: null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - filterStart = filStrart: null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - filterEnd = filEnd: null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - type = type.toString(): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - mainPage = sendRequest(findTestObject("MainPage")): Send request successfully
+
+2020-05-14 01:32:49 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\18.har
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(mainPage, 200): Verify response status code successfully
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - markPassed("Main page is present"): Main page is present
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Main page is present
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - typesession = type: null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - if (typesession == "1"): MainPage redirect
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - session = cookies: null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - getLogin = sendRequest(findTestObject("Object Repository/login")): Send request successfully
+
+2020-05-14 01:32:49 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\19.har
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getLogin, 200): Verify response status code successfully
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - getLoginResponse = getLogin.getResponseText(): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - if (getLoginResponse.contains("Welcome!")): MainPage redirect
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - markPassed("MainPage redirect"): MainPage redirect
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - MainPage redirect
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - postLogin = sendRequest(findTestObject("Object Repository/LoginPost")): Send request successfully
+
+2020-05-14 01:32:49 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\20.har
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - response = postLogin.getResponseText(): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - code = postLogin.getStatusCode(): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - if (code == 200 && response.contains("Welcome!")): Login Berhasil
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - markPassed("Login Berhasil"): Login Berhasil
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Login Berhasil
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - logOut = sendRequest(findTestObject("Object Repository/Logout")): Send request successfully
+
+2020-05-14 01:32:49 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\21.har
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(logOut, 200): Verify response status code successfully
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - logoutResponse = logOut.getResponseBodyContent(): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - markPassed("LogOut Succesfully " + logoutResponse): LogOut Succesfully <h1>Welcome!
+</h1>
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - LogOut Succesfully <h1>Welcome!
+</h1>
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - typesessionData = type: null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - if (typesessionData == "1"): Datalist Displayed
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - session = cookies: null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - getData = sendRequest(findTestObject("Object Repository/DataList")): Send request successfully
+
+2020-05-14 01:32:49 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\22.har
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getData, 200): Verify response status code successfully
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - getDatatxt = getData.getResponseText(): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - if (getDatatxt.contains("Pemasukan") && getDatatxt.contains("Pengeluaran")): Datalist Displayed
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - markPassed("Datalist Displayed"): Datalist Displayed
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Datalist Displayed
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - typesessionDataPost = type: null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - println(typesessionDataPost): null
+
+2020-05-14 01:32:49 - [TEST_STEP][FAILED] - if (typesessionDataPost == "1"): Filter Parameter are wrong
+
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - session = cookies: null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - getFilter = sendRequest(findTestObject("Object Repository/DataListPost")): Send request successfully
+
+2020-05-14 01:32:49 - [MESSAGE][INFO] - HAR: D:\Test\Sirclo\scliAutomation\Reports\20200514_013216\TestSuiteFMSEndpoint\20200514_013216\requests\main\23.har
+
+2020-05-14 01:32:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - filterRes = getFilter.getResponseText(): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - filterCode = getFilter.getStatusCode(): null
+
+2020-05-14 01:32:49 - [TEST_STEP][PASSED] - if (filterCode == 200): null
+
+2020-05-14 01:32:49 - [TEST_STEP][FAILED] - else: Filter Parameter are wrong
+
+
+2020-05-14 01:32:49 - [TEST_STEP][FAILED] - markFailed(filterRes): Filter Parameter are wrong
+
+
+2020-05-14 01:32:49 - [MESSAGE][FAILED] - Filter Parameter are wrong]]></system-out>
+         <system-err><![CDATA[2020-05-14 01:32:49 - [TEST_CASE][FAILED] - Test Cases/EndPointFMS: Test Cases/EndPointFMS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Filter Parameter are wrong
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:190)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-14 01:32:23 - [TEST_SUITE][FAILED] - TestSuiteFMSEndpoint: Test Cases/EndPointFMS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: The password or username is wrong
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-05-14 01:32:23 - [TEST_SUITE][FAILED] - TestSuiteFMSEndpoint: Test Cases/EndPointFMS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: The password or username is wrong
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at EndPointFMS.run(EndPointFMS:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589394741133.run(TempTestSuite1589394741133.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
