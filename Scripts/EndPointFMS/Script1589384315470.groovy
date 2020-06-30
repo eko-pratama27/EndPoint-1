@@ -150,6 +150,7 @@ try{
 		
 		}else{
 			'Not yet Login'
+			'coba push'
 			ResponseObject getData = WS.sendRequest(findTestObject("Object Repository/DataList"))
 			'Validate response 200'
 			WS.verifyResponseStatusCode(getData, 200)
